@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main entry point (does it ven matter)
- * retun alwawysok
+ * main - entry point
+ * puts shows the sentence writen
  */
 int main(void)
 {
