@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * puts: shows the sentence writen
- * return: 0 
+ * puts: shows thewriten
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
