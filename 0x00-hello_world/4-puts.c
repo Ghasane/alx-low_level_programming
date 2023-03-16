@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * puts shows the sentence writen
+ * puts: shows the sentence writen
+ * return: 0 
  */
 int main(void)
 {
