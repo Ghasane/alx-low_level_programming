@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main - enter here
-* return: success
+* return: success all 0
 */
 int main(void)
 {
