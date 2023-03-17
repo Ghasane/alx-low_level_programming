@@ -5,7 +5,7 @@ return: success BS all 0 reur
 */
 int main(void)
 {
-	char n = 'a'
+	char n = 'a';
 
 		while (n <= 'z')
 		{
