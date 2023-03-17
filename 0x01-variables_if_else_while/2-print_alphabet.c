@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
-main - enter here
-return: success BS all 0 reur
+/**
+* main - enter here more desc
+* return: success BS all 0 reur
 */
 int main(void)
 {
@@ -11,6 +11,7 @@ int main(void)
 		{
 			putchar(n);
 			n++;
-	       	}
-       	return(0);
+		}
+		putchar(\n);
+		return(0);
 }
