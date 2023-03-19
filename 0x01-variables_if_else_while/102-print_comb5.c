@@ -40,9 +40,9 @@ int main(void)
 			c = a + 1;
 		}
 		n++;
+		a = 0;
 		b = n;
 		c = a + 1;
-		a = 0;
 	}
 	return (0);
 }
