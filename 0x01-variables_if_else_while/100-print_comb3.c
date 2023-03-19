@@ -7,6 +7,7 @@ int main(void)
 {
 	int n = 0;
 	int a = 1;
+
 		while (n < 10)
 		{
 			while (a < 10)
@@ -16,7 +17,7 @@ int main(void)
 			if (n == 8)
 			{
 				putchar('\n');
-				retunr(0);
+				return(0);
 			}
 			putchar(',');
 			putchar(' ');
