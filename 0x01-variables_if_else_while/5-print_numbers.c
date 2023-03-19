@@ -5,13 +5,11 @@
 */
 int main(void)
 {
-	char n = 'a';
+	int n = 0;
 
-		while (n <= 'z')
+		while (n < 10)
 		{
-			if (n == 'e' || n == 'q')
-				n++;
-			putchar(n);
+			printf("%d", n);
 			n++;
 		}
 		putchar('\n');
