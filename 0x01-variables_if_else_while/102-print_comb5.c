@@ -20,7 +20,7 @@ int main(void)
 				{
 					putchar(48 + n);
 					putchar(48 + a);
-					putchar(" ");
+					putchar(' ');
 					putchar(48 + b);
 					putchar(48 + c);
 					if (n == 9 && a == 8)
