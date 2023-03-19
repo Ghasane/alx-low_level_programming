@@ -13,6 +13,11 @@ int main(void)
 			{
 			putchar(48 + n);
 			putchar(48 + a);
+			if (n == 8)
+			{
+				putchar('\n');
+				retunr(0);
+			}
 			putchar(',');
 			putchar(' ');
 			a++;
@@ -20,6 +25,5 @@ int main(void)
 			n++;
 			a=n + 1;
 		}
-		putchar('\n');
 	return (0);
 }
