@@ -14,7 +14,7 @@ int main(void)
 			while (a < 10)
 			{
 				while (b < 10)
-				{	
+				{
 				putchar(48 + n);
 				putchar(48 + a);
 				putchar(48 + b);
@@ -28,7 +28,7 @@ int main(void)
 				b++;
 				}
 			a++;
-			b = a +1;
+			b = a + 1;
 			}
 			n++;
 			a = n + 1;
