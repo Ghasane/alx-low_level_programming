@@ -26,6 +26,7 @@ void jack_bauer(void)
 					_putchar(48 + m1);
 					if (h == 2 && h1 == 3 && m == 5 && m1 == 9)
 						return;
+					_putchar('\n');
 					m1++;
 				}
 				m++;
