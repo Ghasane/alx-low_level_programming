@@ -1,4 +1,4 @@
-#include "main.h"i
+#include "main.h"
 /**
  * int print_last_digit - show the abc's
  * @n: get nummber
