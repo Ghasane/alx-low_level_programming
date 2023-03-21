@@ -1,4 +1,4 @@
-#include "main.h"i
+#include "main.h"
 /**
  * jack_bauer - show the abc's
  * @c: get corespanadin ascii to entered char
