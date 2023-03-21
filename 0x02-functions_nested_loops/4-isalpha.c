@@ -4,7 +4,7 @@
  * @c: get corespanadin ascii to entered char
  * Return: 1 if lower 0 if not
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (c > 64 && c < 123)
 		return (1);
