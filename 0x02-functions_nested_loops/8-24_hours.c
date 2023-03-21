@@ -10,7 +10,6 @@ void jack_bauer(void)
 	int h1;
 	int m=0;
 	int m1=0;
-	int i=0;
 
 	while(h < 3)
 	{
