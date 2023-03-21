@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - show the abc's
- * @c: get corespanadin ascii to entered char
  * Return: 1 if lower 0 if not
  */
 void jack_bauer(void)
