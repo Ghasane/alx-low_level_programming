@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * jack_bauer - show the abc's
+ * void times_table - show the abc'
  * Return: 1 if lower 0 if not
  */
-void jack_bauer(void)
+void times_table(void);
 {
 	int a = 0;
 	int b = 0;
