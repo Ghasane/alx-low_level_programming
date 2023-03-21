@@ -2,7 +2,7 @@
 /**
  * print_alphabet - show the abc's
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char n = 'a';
 	int a = 0;
