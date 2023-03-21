@@ -1,24 +1,21 @@
 #include "main.h"
 /**
- * print_sign - show the abc's
+ * _abs - show the abc's
  * @n: get nummber
  * Return: 1 if pos 0 if 0 and -1 if neg
  */
-int print_sign(int n)
+int _abs(int n)
 {
 	if (n < 0)
 	{
-		_putchar('-');
-		return (-1);
+		return (-n);
 	}
 	else if (n > 0)
 	{
-		_putchar('+');
-		return (1);
+		return (n);
 	}
 	else
 	{
-		_putchar('0');
 		return (0);
 	}
 }
