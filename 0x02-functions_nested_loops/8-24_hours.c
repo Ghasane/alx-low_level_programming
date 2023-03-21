@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h"i
 /**
  * jack_bauer - show the abc's
  * @c: get corespanadin ascii to entered char
@@ -6,18 +6,18 @@
  */
 void jack_bauer(void)
 {
-	int h=0;
-	int h1;
-	int m=0;
-	int m1=0;
+	int h = 0;
+	int h1 = 0;
+	int m = 0;
+	int m1 = 0;
 
-	while(h < 3)
+	while (h < 3)
 	{
-		while(h1 < 10)
+		while (h1 < 10)
 		{
-			while(m < 6)
+			while (m < 6)
 			{
-				while(m1 < 10)
+				while (m1 < 10)
 				{
 					_putchar(48 + h);
 					_putchar(48 + h1);
