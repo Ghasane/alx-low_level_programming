@@ -2,7 +2,7 @@
 /**
  * _islower - show the abc's
  * @c: get corespanadin ascii to entered char
- * return: 1 if lower 0 if not
+ * Return: 1 if lower 0 if not
  */
 int _islower(int c)
 {
