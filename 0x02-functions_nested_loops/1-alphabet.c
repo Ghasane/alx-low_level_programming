@@ -1,8 +1,3 @@
-#include "_putchar.c"
-/**
- * main - the entrance to whatever
- * Return: 0 return success
-*/
 void print_alphabet(void)
 {
 	char n='a';
@@ -14,5 +9,5 @@ void print_alphabet(void)
 	if (n == 'z')
 	_putchar('\n');
 	}
-	return (0);
+	return ;
 }
