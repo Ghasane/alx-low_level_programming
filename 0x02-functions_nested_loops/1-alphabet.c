@@ -1,5 +1,7 @@
 #include "main.h"
-
+/**
+ * print_alphabet - show the abc's
+ */
 void print_alphabet(void)
 {
 	char n='a';
