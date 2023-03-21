@@ -1,11 +1,13 @@
 #include "main.h"
 /**
- * print_alphabet - show the abc's
+ * _islower - show the abc's
+ * @c: get corespanadin ascii to entered char
+ * return: 1 if lower 0 if not
  */
 int _islower(int c)
 {
-	if (c>96 && c<123)
+	if (c > 96 && c < 123)
 		return (1);
-	else 
+	else
 		return (0);
 }
