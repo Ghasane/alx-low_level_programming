@@ -10,6 +10,7 @@ void print_times_table(int n)
 	int b = 0;
 	int x = 0;
 	int r = 0;
+	int y = 0;
 
 	if(n > 15 && n < 0)
 		return;
@@ -17,8 +18,13 @@ void print_times_table(int n)
 	{
 		while (b <= n)
 		{
+			y = (a * b) / 100;
+			y = y % 10;
 			r = (a * b) / 10;
+			r = (a * b) % 10;
 			x = (a * b) % 10;
+			if (y != 0)
+				_putchar('0' + y);
 			if (r != 0)
 				_putchar('0' + r);
 			else if (b != 0)
