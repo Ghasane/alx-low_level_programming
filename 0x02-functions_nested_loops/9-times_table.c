@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void times_table - show the abc'
+ * times_table - show the abc'
  * Return: 1 if lower 0 if not
  */
 void times_table(void)
