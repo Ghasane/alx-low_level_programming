@@ -18,14 +18,14 @@ void print_to_98(int n)
 	}
 	else if(n > 98)
 	{
-		while
+		while(x != 98)
 		{
 			printf("%d, ", x);
 			x--;
 		}
 		printf("98");
 	}
-	else if (n = 98)
+	else if (n == 98)
 		printf("98");
 
 }
