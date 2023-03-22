@@ -18,8 +18,6 @@ void times_table(void)
 			x = (a * b) % 10;
 			if (r != 0)
 				_putchar('0' + r);
-			else 
-				_putchar(' ');
 			_putchar('0' + x);
 			if (b == 9)
 				break;
