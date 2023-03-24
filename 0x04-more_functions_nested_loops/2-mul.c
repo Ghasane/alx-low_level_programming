@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * mul - show the abc's hmm
  * @a: get corespanadin num to be mul
