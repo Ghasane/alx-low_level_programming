@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_line - print the character "_" n times to draw a line
- * @n: number of characters to draw
+ * print_line - prints the character "_" n times to draw a line
+ * @n: number of_ characters to draw
  */
 
 void print_line(int n)
 {
-	int times = n;
+	int i = n;
 
-	for (times = n; times > 0; times--)
+	for (i = n; i > 0; i--)
 		_putchar('_');
 
 	_putchar('\n');
