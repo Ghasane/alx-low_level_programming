@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_most_numbers - show the abc's hmm
  * Return: 1 if lower 0 if not hmm
