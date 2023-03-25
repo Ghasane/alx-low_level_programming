@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * mul - show the abc's hmm
- * @a: get corespanadin num to be mul
- * @b: get corespanadin ascii to entered char hmm
+ * print_numbers - show the abc's hmm
  * Return: 1 if lower 0 if not hmm
  */
 void print_numbers(void)
@@ -15,5 +13,6 @@ void print_numbers(void)
 		i++;
 	}
 	_putchar ('\n');
+
 	return;
 }
