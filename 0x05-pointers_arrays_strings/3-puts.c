@@ -1,14 +1,13 @@
 #include "main.h"
 /**
  * _puts - does something ...
- * @s: is some engtry
- * Return: return lenth
+ * @str: is some engtry
  */
 void _puts(char *str)
 {
 	int n = 0;
 
-	while (s[n] != '\0')
+	while (str[n] != '\0')
 	{
 		_putchar (str[n]);
 		n++;
