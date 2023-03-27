@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entrance to ...
+ * reset_to_98 - entrance to ...
  * @n: is some engtry
  */
 void reset_to_98(int *n)
