@@ -1,18 +1,23 @@
 #include "main.h"
 /**
- * print_rev - does something ...
+ * rev_string - does something ...
  * @s: is some engtry
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int n = 0;
+	int m = 0;
+	char *c;
 
 	while (s[n] != '\0')
+	{
+		c[n]=s[n];
 		n++;
+	}
 	while (n != 0)
 	{
+		s[m]=c[n];
 		n--;
-		_putchar(s[n]);
+		m++;
 	}
-	_putchar ('\n');
 }
